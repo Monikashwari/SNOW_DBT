@@ -1,0 +1,13 @@
+aws_snow_dbt_project:
+  outputs:
+    dev:
+      account: Your_Snowflake_Account_id
+      database: Your_Snowflake_Database_Name
+      password: Your_Snowflake_Password
+      role: ACCOUNTADMIN
+      schema: Your_Snowflake_Schema_Name
+      threads: 1
+      type: snowflake
+      user: your_snowflake_username
+      warehouse: Your_Snowflake_Warehouse_Name
+  target: dev
